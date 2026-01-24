@@ -1,0 +1,32 @@
+{
+  "name": "agent-with-knowledge",
+  "description": "Agents with knowledge base capabilities",
+  "version": "1.0.0",
+  "author": "Berke (pzzaworks)",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node --esm index.ts",
+    "dev": "ts-node --esm index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "knowledge",
+    "rag",
+    "astreus"
+  ],
+  "dependencies": {
+    "@astreus-ai/astreus": "0.5.24",
+    "dotenv": "17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.2.0",
+    "@types/pg": "8.10.9",
+    "@types/sqlite3": "3.1.11",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "custom-plugins",
+  "description": "Create and register custom plugins with tools for agents",
+  "version": "1.0.0",
+  "author": "Berke (pzzaworks)",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ai", "agent", "plugin", "tools", "custom", "extensibility", "astreus"],
+  "dependencies": {
+    "@astreus-ai/astreus": "0.5.37",
+    "dotenv": "17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.2.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.2"
+  }
+}
